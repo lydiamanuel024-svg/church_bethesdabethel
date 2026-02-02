@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-image: url("../images/cross.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  height:60vh;
+}
+
+nav {
+  background: #34495e;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.img_one{
+    background-image: url("../images/download.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.img_two{
+    background-image: url("../images/download2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.img_three{
+    background-image: url("../images/download3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
