@@ -6,18 +6,18 @@ body {
 }
 
 header {
-  background-image: url("../images/Joliecarte_com.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   text-align: center;
   height:60vh;
 }
 
 
 nav {
-background: #34495e82;
+background: #d8d2c694;
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -40,7 +40,24 @@ nav a {
   font-size: 20px;  
 
 }
-
+.intro_blk{
+  display: flex;
+  gap:40px;
+  padding: 35px;
+    background: #adb29ba1;
+    margin-top: 20px;;
+    border-radius: 21px;
+}
+.intro_ img{
+  max-width: 240px;
+  height:auto
+}
+.intro_txt p{
+padding:0px;
+margin:0px;
+font-size: 24px;
+    font-family: math;
+}
 nav a:hover {
  transform: translateY(-12px) scale(1.04);
 }
@@ -52,26 +69,44 @@ nav a:hover {
 .card{
     background: #f4f4f4;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .img_one{
-    background-image: url("../images/download.jpg");
+    background: #f1b427;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 250px;
+      display: flex;
+    justify-content: center;
+    font-size: 30px; 
+    font-weight: bolder;
+        font-family: cursive;
+    color: antiquewhite;
 }
 .img_two{
-    background-image: url("../images/download2.jpg");
+    background: purple;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 250px;
+     display: flex;
+    justify-content: center;
+    font-size: 30px; 
+    font-weight: bolder;
+        font-family: cursive;
+    color: antiquewhite;
 }
 .img_three{
-    background-image: url("../images/download3.jpg");
+    background:#6be66b;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 250px;
+     display: flex;
+    justify-content: center;
+    font-size: 30px; 
+    font-weight: bolder;
+        font-family: cursive;
+    color: antiquewhite;
 }
 .content {
   max-width: 900px;
@@ -88,6 +123,45 @@ footer {
 .bank_address{
   word-wrap: break-word;
   width:250px
+}
+.welcome_msg{
+  color:#a52a2a91;
+}
+.lead_blk{
+background: url('../images/Diseños.jpg');
+display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 79vh;
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.lead_blk h1{
+  display: flex;
+    justify-content: center;
+        background: #d4d2cfa6;
+        margin: 20px;
+    padding: 20px;
+}
+.name_{
+  font-size: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+    font-weight: bolder;
+    width: 29%;
+    background: #dbdad6ba;
+    border-radius: 20px;
+}
+.church_{
+  font-size: 24px;
+    font-family: math;
+}
+.pastors_blk{
+  margin:20px;
+  padding:20px
 }
 
 @media  (min-width: 769px) {
